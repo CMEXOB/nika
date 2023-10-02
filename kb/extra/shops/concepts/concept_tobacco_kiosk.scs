@@ -1,0 +1,10 @@
+concept_tobacco_kiosk
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_kiosk;
+=> nrel_main_idtf:
+	[Тобачный киоск] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Tobacco kiosk] (* <- lang_en;; *);
+=> nrel_note:
+	[Тобачный киоск — павильон, в котором продаются сигареты и сопутствующая продукция (жвачки, спички, зажигалки и т.п.).] (* <- lang_ru;; *);;

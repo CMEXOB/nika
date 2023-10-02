@@ -1,0 +1,10 @@
+concept_bakery
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_grocery_shop;
+=> nrel_main_idtf:
+	[Пекарня] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Bakery] (* <- lang_en;; *);
+=> nrel_note:
+	[Пекарня — небольшое немеханизированное предприятие по выпечке и реализации хлебобулочных и кондитерских изделий, как правило, также реализующее их на месте. ] (* <- lang_ru;; *);;

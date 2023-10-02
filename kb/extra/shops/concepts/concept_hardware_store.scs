@@ -1,0 +1,10 @@
+concept_hardware_store
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_shop;
+=> nrel_main_idtf:
+	[Хозяйственный магазин] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Hardware store] (* <- lang_en;; *);
+=> nrel_note:
+	[Хозяйственный магазин — специализированный магазин розничной торговли, в котором продают строительные, отделочные материалы и оборудование, товары для дома и сада ] (* <- lang_ru;; *);;

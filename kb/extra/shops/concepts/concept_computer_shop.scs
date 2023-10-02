@@ -1,0 +1,10 @@
+concept_computer_shop
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_shop;
+=> nrel_main_idtf:
+	[Компьютерный магазин] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Computer shop] (* <- lang_en;; *);
+=> nrel_note:
+	[Компьютерный магазин — магазин, который продает компьютеры малому предпринимателю или частному пользователю. ] (* <- lang_ru;; *);;

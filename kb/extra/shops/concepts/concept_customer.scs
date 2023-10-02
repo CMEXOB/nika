@@ -1,0 +1,8 @@
+concept_customer
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Клиент] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Customer] (* <- lang_en;; *);
+=> nrel_note:
+	[Клиент - это человек, который неоднократно заключает сделку с магазином.] (* <- lang_ru;; *);;

@@ -1,0 +1,89 @@
+section_subject_domain_of_shops
+=> nrel_main_idtf:
+    [Раздел. Предметная область магазины]
+    (* <- lang_ru;;*);
+<- atomic_secton;;
+
+section_subject_domain_of_shops = [*
+    subject_domain_of_shops
+    => nrel_main_idtf:
+        [Предметная область магазины]
+        (* <- lang_ru;;*);
+        [Subject domain of shops]
+        (* <- lang_en;;*);
+    <- subject_domain;
+    -> rrel_maximum_studied_object_class:
+        concept_shop;
+        concept_worker;
+        concept_customer; 
+    -> rrel_not_maximum_studied_object_class:
+        concept_jewelry_shop; 
+        concept_grocery_shop; 
+        concept_bakery; 
+        concept_barber_shop; 
+        concept_market; 
+        concept_bookshop; 
+        concept_candy_shop; 
+        concept_clothes_shop; 
+        concept_pawn_shop; 
+        concept_computer_shop; 
+        concept_butcher_shop; 
+        concept_mall; 
+        concept_delicatessen; 
+        concept_greengrocer_shop; 
+        concept_hardware_store; 
+        concept_music_shop; 
+        concept_newsagent; 
+        concept_kiosk;
+        concept_food_kiosk;
+        concept_tobacco_kiosk;
+        concept_tourist_kiosk;
+        concept_fishmonger_shop; 
+        concept_gift_shop; 
+        concept_toy_shop; 
+        concept_supermarket; 
+        concept_pet_shop; 
+        concept_shoe_shop;
+
+    -> rrel_explored_relation:
+        nrel_competitor;
+        nrel_work_in;
+        nrel_buyer;;
+
+*];;
+
+section_subject_domain_of_shops
+-> rrel_key_sc_element:
+        concept_shop;
+        concept_kiosk;
+        concept_food_kiosk;
+        concept_tobacco_kiosk;
+        concept_tourist_kiosk;
+        concept_jewelry_shop; 
+        concept_grocery_shop;
+        concept_bakery; 
+        concept_barber_shop; 
+        concept_market; 
+        concept_bookshop; 
+        concept_candy_shop; 
+        concept_clothes_shop; 
+        concept_pawn_shop; 
+        concept_computer_shop; 
+        concept_butcher_shop; 
+        concept_mall; 
+        concept_delicatessen; 
+        concept_greengrocer_shop; 
+        concept_hardware_store; 
+        concept_music_shop; 
+        concept_newsagent; 
+        concept_fishmonger_shop; 
+        concept_gift_shop; 
+        concept_toy_shop; 
+        concept_supermarket; 
+        concept_pet_shop; 
+        concept_shoe_shop;
+        concept_worker;
+        concept_customer; 
+        nrel_competitor;
+        nrel_work_in;
+        nrel_buyer;; 

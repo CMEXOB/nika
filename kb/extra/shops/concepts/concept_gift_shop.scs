@@ -1,0 +1,10 @@
+concept_gift_shop
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_shop;
+=> nrel_main_idtf:
+	[Cувенирный магазин] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Gift shop] (* <- lang_en;; *);
+=> nrel_note:
+	[Cувенирный магазин — это магазин, в основном торгующий сувенирами, памятными вещами и другими предметами, относящимися к определенной теме или теме. ] (* <- lang_ru;; *);;

@@ -1,0 +1,10 @@
+concept_fishmonger_shop
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_grocery_shop;
+=> nrel_main_idtf:
+	[Рыбный магазин] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[fishmonger shop] (* <- lang_en;; *);
+=> nrel_note:
+	[Рыбный магазин - это узко специализированная торговая точка, предлагающая своим клиентам обширный ассортимент рыбной продукции. ] (* <- lang_ru;; *);;

@@ -1,0 +1,10 @@
+concept_toy_shop
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_shop;
+=> nrel_main_idtf:
+	[Магазин игрушек] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Toy shop] (* <- lang_en;; *);
+=> nrel_note:
+	[Магазин игрушек — тип розничной торговли , специализирующийся на продаже игрушек .] (* <- lang_ru;; *);;

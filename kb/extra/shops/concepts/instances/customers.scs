@@ -1,0 +1,8 @@
+bunsha_ivan_vasilievich
+<- concept_customer;
+=> nrel_main_idtf:
+	[Бунша Иван Васильевич] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Bunsha Ivan Vasilievich] (* <- lang_en;; *);
+=> nrel_description:
+	[Бунша Иван Васильевич - пенсионер-общественник, имеет опыт путешествия во времени.] (* <- lang_ru;; *);;

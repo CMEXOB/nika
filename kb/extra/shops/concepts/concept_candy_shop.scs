@@ -1,0 +1,10 @@
+concept_candy_shop
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_grocery_shop;
+=> nrel_main_idtf:
+	[Кондитерская] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Candy shop] (* <- lang_en;; *);
+=> nrel_note:
+	[Кондитерская – это заведение общественного питания, совмещающее в себе небольшой магазин, кафетерий и мини цех, производящий кондитерские и хлебобулочные изделия.] (* <- lang_ru;; *);;

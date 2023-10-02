@@ -1,0 +1,8 @@
+vasilyeva_elena_ivanovna
+<- concept_worker;
+=> nrel_main_idtf:
+	[Васильева Елена Ивановна] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Vasilyeva Elena Ivanovna] (* <- lang_en;; *);
+=> nrel_description:
+	[Васильева Елена Ивановна - опытный работник со стажем 10 лет.] (* <- lang_ru;; *);;

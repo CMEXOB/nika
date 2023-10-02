@@ -1,0 +1,10 @@
+concept_pet_shop
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_shop;
+=> nrel_main_idtf:
+	[Зоомагазин] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Pet shop] (* <- lang_en;; *);
+=> nrel_note:
+	[Зоомагазин — магазин для продажи товаров для животных. В зоомагазинах продаётся питание для животных, клетки, аквариумы, различные аксессуары. ] (* <- lang_ru;; *);;

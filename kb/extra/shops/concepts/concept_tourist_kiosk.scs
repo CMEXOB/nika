@@ -1,0 +1,10 @@
+concept_tourist_kiosk
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_kiosk;
+=> nrel_main_idtf:
+	[Туристический киоск] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Tourist kiosk] (* <- lang_en;; *);
+=> nrel_note:
+	[Туристический киоск — павильон, в котором предоставляют информацию о культурных событиях города, где можно купить билеты на концерты или выступления. ] (* <- lang_ru;; *);;

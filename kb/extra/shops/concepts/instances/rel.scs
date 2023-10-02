@@ -1,0 +1,5 @@
+shop_neighbours <=> nrel_competitor:shop_crown;;
+
+vasilyeva_elena_ivanovna => nrel_work_in:shop_funtastik;;
+
+bunsha_ivan_vasilievich => nrel_buyer:shop_belkniga;;

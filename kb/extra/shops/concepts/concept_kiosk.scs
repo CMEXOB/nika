@@ -1,0 +1,10 @@
+concept_kiosk
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_shop;
+=> nrel_main_idtf:
+	[Киоск] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Kiosk] (* <- lang_en;; *);
+=> nrel_note:
+	[Киоск — строение небольших размеров, предназначенное для мелкорозничной торговли, продажи продукции общественного питания или предоставления услуг. ] (* <- lang_ru;; *);;

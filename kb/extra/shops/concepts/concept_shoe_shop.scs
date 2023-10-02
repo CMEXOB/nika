@@ -1,0 +1,10 @@
+concept_shoe_shop
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_shop;
+=> nrel_main_idtf:
+	[Магазин обуви] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Shoe shop] (* <- lang_en;; *);
+=> nrel_note:
+	[Магазин обуви — это любой магазин, в котором продаётся обувь. ] (* <- lang_ru;; *);;

@@ -1,0 +1,10 @@
+concept_food_kiosk
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_kiosk;
+=> nrel_main_idtf:
+	[Продуктовый киоск]  (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Food kiosk] (* <- lang_en;; *);
+=> nrel_note:
+	[Продуктовый киоск — маленький, по площади, магазин, в котором представлен небольшой перечень продуктов широкого потребления. ] (* <- lang_ru;; *);;

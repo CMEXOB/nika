@@ -1,0 +1,235 @@
+shop_seven_karat 
+<- concept_jewelry_shop;
+=> nrel_main_idtf:
+	[Семь карат] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Seven_karat] (* <- lang_en;; *);
+=> nrel_note:
+	[Семь карат- белорусская мультибрендовая сеть ювелирных магазинов, основанная в 2006 году в Минске. Владельцем компании является Алексей Корягин — предприниматель, писатель, член Минского столичного союза предпринимателей и работодателей.] (* <- lang_ru;; *);;
+
+shop_marko
+<- concept_shoe_shop;
+=> nrel_main_idtf:
+	[Марко] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Marko] (* <- lang_en;; *);
+=> nrel_note:
+	[Марко — белорусский кожевенно-обувной комбинат, основанный в сентябре 1991 года в Витебске. На 2015 год в Витебске было 4 филиала, сеть из 48 собственных магазинов в 24 городах Беларуси, зарубежные офисы и магазины в Казахстане, Латвии и России.] (* <- lang_ru;; *);;
+
+shop_biscfitovv
+<- concept_candy_shop;
+=> nrel_main_idtf:
+	[Бисквитофф] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Biscfitovv] (* <- lang_en;; *);
+=> nrel_note:
+	[Бисквитофф - одина из самых популярных кондитерскиз Минска.] (* <- lang_ru;; *);;
+
+kiosk_greenhouse
+<- concept_food_kiosk;
+=> nrel_main_idtf:
+	[Киоск Парничок] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Kiosk Greenhouse] (* <- lang_en;; *);
+=> nrel_note:
+	[Киоск Парничок - .является одним из первых предприятий, освоившим выращивание огурцов, салатов и зеленных культур круглогодично с использованием технологии системы досвечивания.] (* <- lang_ru;; *);;
+
+shop_snuffbox
+<- concept_tobacco_kiosk;
+=> nrel_main_idtf:
+	[Табакерка] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Snuffbox] (* <- lang_en;; *);
+=> nrel_note:
+	[Табакерка - киоск по продаже табачной продукции.] (* <- lang_ru;; *);;
+
+kiosk_information_and_tourist_center_minsk
+<- concept_tourist_kiosk;
+=> nrel_main_idtf:
+	[Информационно-туристский центр "Минск"] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Information and tourist center "Minsk"] (* <- lang_en;; *);
+=> nrel_note:
+	[Информационно-туристский центр "Минск" - киоск по продаже сувениров и билетов на тур по Минску.] (* <- lang_ru;; *);;
+
+
+shop_neighbours
+<- concept_grocery_shop;
+=> nrel_main_idtf:
+	[Соседи] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Neighbours] (* <- lang_en;; *);
+=> nrel_note:
+	[Соседи - это сеть магазинов, расположенных по всей Беларуси.] (* <- lang_ru;; *);;
+
+shop_barber_shop_jo
+<- concept_barber_shop;
+=> nrel_main_idtf:
+	[Барбершоп Джо] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Barber Shop Jo] (* <- lang_en;; *);
+=> nrel_note:
+	[Барбершоп Джо - мужские стрижки и услуги по грумингу бороды в городе Минске.] (* <- lang_ru;; *);;
+
+shop_breadbox
+<- concept_bakery; 
+=> nrel_main_idtf:
+	[Хлебница] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Breadbox] (* <- lang_en;; *);
+=> nrel_note:
+	[Хлебница - занимается серийным производством хлебобулочной продукции.] (* <- lang_ru;; *);;
+
+shop_komarovsky_market
+<- concept_market;
+=> nrel_main_idtf:
+	[Комаровский рынок] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Komarovsky market] (* <- lang_en;; *);
+=> nrel_note:
+	[Комаровский рынок - главный продовольственный рынок Минска, расположен в Советском районе Минска. Название рынка происходит от исторического названия местности, где он был построен — Комаровка.] (* <- lang_ru;; *);;
+
+shop_belkniga
+<- concept_bookshop;
+=> nrel_main_idtf:
+	[Белкнига] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Belkniga] (* <- lang_en;; *);
+=> nrel_note:
+	[Белкнига - книжный магазин Беларуси.] (* <- lang_ru;; *);;
+
+shop_mark_formelle
+<- concept_clothes_shop;
+=> nrel_main_idtf:
+	[Mark Formelle] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Mark Formelle] (* <- lang_en;; *);
+=> nrel_note:
+	[Mark Formelle - Fashion-бренд Mark Formelle был создан в 2009 году году супругами и партнерами по бизнесу Светланой Сипаровой и Андреем Сериковым.] (* <- lang_ru;; *);;
+
+shop_honest_loan
+<- concept_pawn_shop;
+=> nrel_main_idtf:
+	[Честный займ] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Honest loan] (* <- lang_en;; *);
+=> nrel_note:
+	[Честный займ - ломбард Минска.] (* <- lang_ru;; *);;
+
+shop_cooler_by
+<- concept_computer_shop;
+=> nrel_main_idtf:
+	[COOLER BY] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[COOLER BY] (* <- lang_en;; *);
+=> nrel_note:
+	[COOLER BY - главный интернет-магазин по прадаже компьютеров и системных блоков в Беларуси.] (* <- lang_ru;; *);;
+
+shop_gourmet
+<- concept_butcher_shop;
+=> nrel_main_idtf:
+	[Гурман] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Gourmet] (* <- lang_en;; *);
+=> nrel_note:
+	[Гурман - мясной магазин Минска.] (* <- lang_ru;; *);;
+
+shop_galileo
+<- concept_mall;
+=> nrel_main_idtf:
+	[Galileo] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Galileo] (* <- lang_en;; *);
+=> nrel_note:
+	[Galileo - это многофункциональный торгово-развлекательный комплекс, современный формат которого позволяет объединить комфортный шопинг и насыщенный досуг.] (* <- lang_ru;; *);;
+
+shop_gastrognome
+<- concept_delicatessen;
+=> nrel_main_idtf:
+	[ГастроГном] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[GastroGnome] (* <- lang_en;; *);
+=> nrel_note:
+	[ГастроГном - академия вкуса для каждого белоруса!.] (* <- lang_ru;; *);;
+
+shop_garden
+<- concept_greengrocer_shop;
+=> nrel_main_idtf:
+	[Огород] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Garden] (* <- lang_en;; *);
+=> nrel_note:
+	[Огород - фирменный овощной магазин, ориентированный на продаже овощей и ягод.] (* <- lang_ru;; *);;
+
+shop_island_of_purity
+<- concept_hardware_store;
+=> nrel_main_idtf:
+	[Остров чистоты] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Island of purity] (* <- lang_en;; *);
+=> nrel_note:
+	[Остров чистоты - крупнейшая сеть магазинов «у дома». Ассортимент включает: продукты питания, товары для красоты и здоровья, а также для дома, средства бытовой химии, товары для детей, канцтовары, чулочно-носочные изделия, товары для животных, подарочные наборы.] (* <- lang_ru;; *);;
+
+shop_muzforte
+<- concept_music_shop;
+=> nrel_main_idtf:
+	[Музфорте] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Muzforte] (* <- lang_en;; *);
+=> nrel_note:
+	[Музфорте - специализированный интернет-магазин для музыкантов, звукорежиссеров, саундпродюссеров.] (* <- lang_ru;; *);;
+
+shop_belsoyuzpechat
+<- concept_newsagent;
+=> nrel_main_idtf:
+	[Белсоюзпечать] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Belsoyuzpechat] (* <- lang_en;; *);
+=> nrel_note:
+	[Белсоюзпечать - крупнейшая специализированная торговая сеть Беларуси, подведомственная Министерству информации Республики Беларусь.] (* <- lang_ru;; *);;
+
+shop_redfish
+<- concept_fishmonger_shop;
+=> nrel_main_idtf:
+	[RedFish] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[RedFish] (* <- lang_en;; *);
+=> nrel_note:
+	[RedFish - магазин продающий свежие морепродукты, икра, устрицы, готовая продукция, бакалея.] (* <- lang_ru;; *);;
+
+
+shop_kropka
+<- concept_gift_shop;
+=> nrel_main_idtf:
+	[Кропка] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Kropka] (* <- lang_en;; *);
+=> nrel_note:
+	[Кропка - информационно-туристическая точка в самом сердце Минска, в которой Вы сможете приобрести сувениры от лучших белорусских мастеров, а также уникальный туристический продукт "Карта Гостя", билеты Ticketpro на различные мероприятия, забронировать экскурсии и получить всю необходимую информацию.] (* <- lang_ru;; *);;
+
+shop_funtastik
+<- concept_toy_shop;
+=> nrel_main_idtf:
+	[Фантастик] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[FUNtastik] (* <- lang_en;; *);
+=> nrel_note:
+	[Фантастик - сеть магазинов детских игрушек FUNtastik - широкий выбор игрушек на любой вкус.] (* <- lang_ru;; *);;
+
+shop_crown
+<- concept_supermarket;
+=> nrel_main_idtf:
+	[Корона] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Crown] (* <- lang_en;; *);
+=> nrel_note:
+	[Корона - сеть торговых центров и магазинов. Торговые центры «Корона» — это все необходимые сервисы в одном месте: гипермаркет, магазины одежды и развлечения.] (* <- lang_ru;; *);;
+
+shop_garfield
+<- concept_pet_shop;
+=> nrel_main_idtf:
+	[Гарфилд] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Garfield] (* <- lang_en;; *);
+=> nrel_note:
+	[Гарфилд предложит Вам расширенный ассортимент зоотоваров для животных: для кошек, собак, птиц, грызунов и рыбок, товары ветеринарной аптеки. Умеренные цены, качественное обслуживание и большой выбор товаров от ведущих мировых производителей.] (* <- lang_ru;; *);;

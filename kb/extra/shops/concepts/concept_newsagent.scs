@@ -1,0 +1,10 @@
+concept_newsagent
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_kiosk;
+=> nrel_main_idtf:
+	[Газетный киоск] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Newsagent] (* <- lang_en;; *);
+=> nrel_note:
+	[Газетный киоск — небольшой магазин, где в продаже представлены газеты, конверты, журналы, канцелярские принадлежности, проездные документы. ] (* <- lang_ru;; *);;

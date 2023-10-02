@@ -1,0 +1,10 @@
+concept_clothes_shop
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_shop;
+=> nrel_main_idtf:
+	[Магазин одежды] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Сlothes shop] (* <- lang_en;; *);
+=> nrel_note:
+	[Магазин одежды — это любой магазин, в котором продаются готовые предметы одеждю. ] (* <- lang_ru;; *);;

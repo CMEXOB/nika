@@ -1,0 +1,36 @@
+nrel_competitor
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- non_oriented_relation;
+<- antireflexive_relation;
+<- symmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[Конкурент*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Competitor*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_shop;
+=> nrel_second_domain: concept_shop;
+=> nrel_definitional_domain:concept_shop;
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (Конкурент* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Конкурент* - бинарное неролевое отношение между двумя магазинами, которое показывает между какими магазинами происходит конкуренционная борьба.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            concept_church;
+            concept_faithful;
+            relation
+        };;
+  *);;
